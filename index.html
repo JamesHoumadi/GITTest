@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Test IRISLAB</title>
+		
+		<link type="text/css" rel="stylesheet" href="index.css"
+			media="screen,projection" />
+		
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="index.js"></script>
+		
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"
+			media="screen,projection" />
+		<script src="js/materialize.min.js"></script>
+			
+	</head>
+	<body>
+		<div class="row">
+			<form class="col s12" action="javascript:validateForm()">
+			  <div class="row">
+				<div class="input-field col s6">
+				  <i class="material-icons prefix">search</i>
+				  <input id="rechercheInput" type="text" class="validate" required>
+				  <label for="rechercheInput">Recherche</label>
+				</div>
+				<div class="col s6">
+					<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+						<i class="material-icons right">send</i>
+					</button>
+				</div>
+			  </div>
+			</form>
+		 </div>
+		  <div class="row" id="listeAteliers">
+			
+		  </div>
+		  
+	</body>
+</html>
